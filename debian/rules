@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+# Prevent the building of /usr/bin/colorable
+export DH_GOLANG_EXCLUDES := cmd
+
+%:
+	dh $@ --buildsystem=golang --with=golang
