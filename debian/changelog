@@ -1,3 +1,20 @@
+golang-github-mattn-go-colorable (0.1.13-1) unstable; urgency=medium
+
+  * New upstream version 0.1.13
+  * Bump Standards-Version to 4.6.1 (no change)
+  * Bump dependency: golang-github-mattn-go-isatty-dev (>= 0.0.16)
+
+ -- Anthony Fok <foka@debian.org>  Sun, 04 Sep 2022 22:29:53 -0600
+
+golang-github-mattn-go-colorable (0.1.12-1) unstable; urgency=medium
+
+  * New upstream version 0.1.12
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Reorder fields in debian/control and debian/copyright
+    as would be generated in the next dh-make-golang release after 0.6.0-1
+
+ -- Anthony Fok <foka@debian.org>  Wed, 29 Dec 2021 20:46:04 -0700
+
 golang-github-mattn-go-colorable (0.1.11-1) unstable; urgency=medium
 
   * New upstream version 0.1.11

@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: go-colorable
 Source: https://github.com/mattn/go-colorable
+Upstream-Name: go-colorable
 
 Files: *
 Copyright: (c) 2016, Yasuhiro Matsumoto <mattn.jp@gmail.com>
