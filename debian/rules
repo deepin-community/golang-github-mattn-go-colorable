@@ -4,4 +4,4 @@
 export DH_GOLANG_EXCLUDES := cmd
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ --builddirectory=_build --buildsystem=golang

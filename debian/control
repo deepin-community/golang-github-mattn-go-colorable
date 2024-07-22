@@ -1,26 +1,26 @@
 Source: golang-github-mattn-go-colorable
+Section: golang
+Priority: optional
 Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
 Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>,
            Anthony Fok <foka@debian.org>
-Section: golang
-Testsuite: autopkgtest-pkg-go
-Priority: optional
+Rules-Requires-Root: no
 Build-Depends: debhelper-compat (= 13),
-               dh-golang,
+               dh-sequence-golang,
                golang-any,
-               golang-github-mattn-go-isatty-dev (>= 0.0.14)
-Standards-Version: 4.6.0
+               golang-github-mattn-go-isatty-dev (>= 0.0.16)
+Testsuite: autopkgtest-pkg-go
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mattn-go-colorable
 Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mattn-go-colorable.git
 Homepage: https://github.com/mattn/go-colorable
-Rules-Requires-Root: no
 XS-Go-Import-Path: github.com/mattn/go-colorable
 
 Package: golang-github-mattn-go-colorable-dev
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
-         golang-github-mattn-go-isatty-dev (>= 0.0.14)
+         golang-github-mattn-go-isatty-dev (>= 0.0.16)
 Description: Golang library to colorable writer for windows
  This golang library is possible to handle escape sequence for ansi color on
  windows.
